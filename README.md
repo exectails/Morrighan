@@ -26,12 +26,15 @@ Starting with Morrighan 1.5.11 you can add the parameter `nxlauncher` to your no
 
 Example: `Morrighan.exe code:1622 ver:143 logip:208.85.109.35 logport:11000 chatip:208.85.109.37 chatport:8002 setting:"file://data/features.xml=Regular, USA" nxlauncher`
 
-G13
------------------------------------------------------------------------------
+## G13
 
 If we you want to use Morrighan with G13 servers, simply add another parameter, "jpG13".
 
 Example: `Morrighan.exe code:1622 ver:143 logip:127.0.0.1 logport:11000 chatip:127.0.0.1 chatport:8002 setting:"file://data/features.xml=Regular, Japan" jpG13`
+
+## Hiding Morrighan
+
+To hide the Morrighan window you can either click its tray icon to minimize it there, or start Morrighan with the parameter "hideonstart".
 
 ## Restrictions
 
