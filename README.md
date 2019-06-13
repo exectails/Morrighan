@@ -6,7 +6,7 @@ Morrighan acts as a kind of proxy, it makes the client connect to a special loca
 
 Let's assume you want to log packets from NA. Instead of launching the client through the patcher, you would create a link/bat, like you would to connect to a local server, but with the NA IPs. And instead of client.exe you would use Morrighan.exe (which you have to put into your Mabi folder), that's it.
 
-`Morrighan.exe code:1622 ver:143 logip:208.85.109.35 logport:11000 chatip:208.85.109.37 chatport:8002 setting:"file://data/features.xml=Regular, USA"`
+`Morrighan.exe code:1622 ver:143 logip:35.162.171.43 logport:11000 chatip:54.214.176.167 chatport:8002 setting:"file://data/features.xml=Regular, USA"`
 
 What will happen here is that Morrighan reads the parameters, replaces the logip and port with the ones to a new, invisible local server it started, and finally starts the client. You will see a little window in the upper left, to let you know that Morrighan is running. Once you see that window, you can use a tool like Pale to connect to it and log packets.
 
@@ -24,7 +24,7 @@ With the removal of direct launch in NA and possibly other regions, the NX hash 
 
 Starting with Morrighan 1.5.11 you can add the parameter `nxlauncher` to your normal NA start up parameters. If you do so, Morrighan temporarily replaces your Client.exe with itself. Then you click Play in the Nexon Launcher, which doesn't start the client, but Morrighan instead, which now doesn't start the game, but just notes down the NX hash. Afterwards you click OK in the window of the original Morrighan, which reverts the Client.exe back to normal, retrieves the hash from a temporary file, and then starts the client as it normally would.
 
-Example: `Morrighan.exe code:1622 ver:143 logip:208.85.109.35 logport:11000 chatip:208.85.109.37 chatport:8002 setting:"file://data/features.xml=Regular, USA" nxlauncher`
+Example: `Morrighan.exe code:1622 ver:143 logip:35.162.171.43 logport:11000 chatip:54.214.176.167 chatport:8002 setting:"file://data/features.xml=Regular, USA" nxlauncher`
 
 ## G13
 
