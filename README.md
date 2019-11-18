@@ -26,6 +26,12 @@ Starting with Morrighan 1.5.11 you can add the parameter `nxlauncher` to your no
 
 Example: `Morrighan.exe code:1622 ver:143 logip:35.162.171.43 logport:11000 chatip:54.214.176.167 chatport:8002 setting:"file://data/features.xml=Regular, USA" nxlauncher`
 
+Note that starting in November 2019 the arguments changed slightly and
+using the old ones will only get you to a login screen. Use the following
+line to start NA from now on.
+
+`Morrighan.exe code:1622 verstr:248 ver:248 locale:USA env:Regular setting:file://data/features.xml logip:35.162.171.43 logport:11000 chatip:54.214.176.167 chatport:8002 nxlauncher`
+
 ## G13/G17
 
 If we you want to use Morrighan with G13 or G17 servers, simply add another parameter, "jpG13". Despite its name, this parameter will make Morrighan work with both of these older servers.
